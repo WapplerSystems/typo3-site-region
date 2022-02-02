@@ -14,25 +14,20 @@ return [
         'transOrigPointerField' => 'l10n_parent',
         'transOrigDiffSourceField' => 'l10n_diffsource',
         'delete' => 'deleted',
+        'sortby' => 'sorting',
+        'rootLevel' => -1,
         'enablecolumns' => [
             'disabled' => 'hidden',
         ],
         'searchFields' => 'title',
-        'iconfile' => 'EXT:site_region/Resources/Public/Icons/tx_siteregion_domain_model_region.svg'
+        'iconfile' => 'EXT:site_region/Resources/Public/Icons/Extension.png'
     ],
     'types' => [
         '1' => ['showitem' => '
             --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
-                title, sitetitle, constants, config,
-            --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_tca.xlf:sys_template.tabs.options,
-                clear, root,
-            --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_tca.xlf:sys_template.tabs.include,
-                includeStaticAfterBasedOn, include_static_file, basedOn, static_file_mode,
+                title,
             --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access,
-                hidden,--palette--;;timeRestriction,
-            --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:notes,
-                description,
-            --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:extended,
+                hidden,
         ']
     ],
     'palettes' => [
