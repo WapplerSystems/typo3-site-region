@@ -6,7 +6,6 @@ namespace WapplerSystems\SiteRegion\DataProcessing;
 use Psr\Http\Message\ServerRequestInterface;
 use TYPO3\CMS\Core\Database\ConnectionPool;
 use TYPO3\CMS\Core\Site\Entity\SiteLanguage;
-use TYPO3\CMS\Core\Site\SiteFinder;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Frontend\ContentObject\ContentObjectRenderer;
 use TYPO3\CMS\Frontend\ContentObject\DataProcessorInterface;
@@ -30,15 +29,6 @@ class CurrentRegionProcessor implements DataProcessorInterface
         if (isset($processorConfiguration['if.']) && !$cObj->checkIf($processorConfiguration['if.'])) {
             return $processedData;
         }
-
-
-
-        $queryBuilder = GeneralUtility::makeInstance(ConnectionPool::class)->getQueryBuilderForTable('tx_siteregion_domain_model_region');
-        $result = $queryBuilder->select('*')->from('tx_siteregion_domain_model_region')->execute();
-
-        /** @var SiteFinder $siteFinder */
-        $siteFinder = GeneralUtility::makeInstance(SiteFinder::class);
-        $site = $siteFinder->getSiteByPageId($GLOBALS['TSFE']->id);
 
         $language = self::getCurrentSiteLanguage();
         if ($language === null) return $processedData;
