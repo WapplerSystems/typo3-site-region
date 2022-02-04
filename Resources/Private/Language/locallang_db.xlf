@@ -9,6 +9,9 @@
 			<trans-unit id="tx_siteregion_domain_model_region.title">
 				<source>Title</source>
 			</trans-unit>
+			<trans-unit id="tx_siteregion_domain_model_region.shortname">
+				<source>Short name</source>
+			</trans-unit>
 			<trans-unit id="siteConfiguration.tab">
 				<source>Region</source>
 			</trans-unit>

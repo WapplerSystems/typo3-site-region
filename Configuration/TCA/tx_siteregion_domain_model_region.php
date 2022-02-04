@@ -25,7 +25,7 @@ return [
     'types' => [
         '1' => ['showitem' => '
             --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
-                title,
+                title,shortname,
             --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access,
                 hidden,
         ']
@@ -96,6 +96,15 @@ return [
                 'type' => 'input',
                 'size' => 30,
                 'eval' => 'trim,required'
+            ],
+        ],
+        'shortname' => [
+            'exclude' => 0,
+            'label' => 'LLL:EXT:site_region/Resources/Private/Language/locallang_db.xlf:tx_siteregion_domain_model_region.shortname',
+            'config' => [
+                'type' => 'input',
+                'size' => 30,
+                'eval' => 'trim'
             ],
         ],
     ],
