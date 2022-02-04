@@ -38,8 +38,8 @@ class CurrentRegionProcessor implements DataProcessorInterface
         $queryBuilder = GeneralUtility::makeInstance(ConnectionPool::class)->getQueryBuilderForTable('tx_siteregion_domain_model_region');
         $result = $queryBuilder->select('uid', 'title')->from('tx_siteregion_domain_model_region')->where($queryBuilder->expr()->eq('uid', $queryBuilder->createNamedParameter($region)))->execute();
 
-        if ($result->fetchAssociative()) {
-            $processedData['currentRegion'] = $result->fetchAssociative();
+        if ($data = $result->fetchAssociative()) {
+            $processedData['currentRegion'] = $data;
         }
 
         return $processedData;
