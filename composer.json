@@ -1,7 +1,7 @@
 {
 	"name": "wapplersystems/site-region",
 	"type": "typo3-cms-extension",
-	"description": "Additional region field fot sites",
+	"description": "Additional region field for sites",
 	"license": "GPL-2.0+",
 	"keywords": [
 		"typo3",
