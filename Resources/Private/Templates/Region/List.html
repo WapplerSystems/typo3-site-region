@@ -1,0 +1,26 @@
+<f:layout name="Default"/>
+<f:section name="main">
+
+    <f:if condition="{tree}">
+        <ul class="list-unstyled">
+        <f:for as="region" each="{tree}">
+            <li><f:render section="Region" arguments="{region:region}" /></li>
+        </f:for>
+        </ul>
+    </f:if>
+
+</f:section>
+
+<f:section name="Region">
+
+    <span class="region-title h{region.level}"><f:if condition="{region.flag}"><span class="region-flag"><f:image maxWidth="32" src="EXT:core/Resources/Public/Icons/Flags/{region.flag -> f:format.case(mode:'upper')}.png" /></span></f:if>{region.title}</span>
+    <ul>
+        <f:for as="region" each="{region.subRegions}">
+
+            <f:render section="Region" arguments="{region:region}" />
+        </f:for>
+        <f:for as="language" each="{region.languages}">
+            <li><a href="{language.base}" hreflang="{language.hreflang}">{language.navigationTitle}</a></li>
+        </f:for>
+    </ul>
+</f:section>

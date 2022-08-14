@@ -18,6 +18,9 @@
 			<trans-unit id="siteConfiguration.region">
 				<source>Region</source>
 			</trans-unit>
+			<trans-unit id="siteregion_list">
+				<source>Region list</source>
+			</trans-unit>
 
 		</body>
 	</file>
