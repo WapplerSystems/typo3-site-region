@@ -1,0 +1,20 @@
+plugin.tx_siteregion {
+	view {
+		templateRootPaths {
+      0 = EXT:site_region/Resources/Private/Templates/
+			10 = {$plugin.tx_siteregion.view.templateRootPath}
+		}
+		partialRootPaths {
+			0 = EXT:site_region/Resources/Private/Partials/
+			10 = {$plugin.tx_siteregion.view.partialRootPath}
+		}
+		layoutRootPaths {
+			0 = EXT:site_region/Resources/Private/Layouts/
+			10 = {$plugin.tx_siteregion.view.layoutRootPath}
+		}
+	}
+	settings {
+
+	}
+
+}
