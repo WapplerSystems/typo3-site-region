@@ -3,29 +3,29 @@
   <file source-language="en" datatype="plaintext" product-name="cms" target-language="da">
     <header/>
     <body>
-      <trans-unit id="tx_siteregion_domain_model_region">
+      <trans-unit id="tx_siteregion_domain_model_region" approved="yes">
         <source>Site Region</source>
-        <target state="needs-translation">Site Region</target>
+        <target state="final">Webstedsregion</target>
       </trans-unit>
-      <trans-unit id="tx_siteregion_domain_model_region.title">
+      <trans-unit id="tx_siteregion_domain_model_region.title" approved="yes">
         <source>Title</source>
-        <target state="needs-translation">Title</target>
+        <target state="final">Titel</target>
       </trans-unit>
-      <trans-unit id="tx_siteregion_domain_model_region.shortname">
+      <trans-unit id="tx_siteregion_domain_model_region.shortname" approved="yes">
         <source>Short name</source>
-        <target state="needs-translation">Short name</target>
+        <target state="final">Kort navn</target>
       </trans-unit>
-      <trans-unit id="siteConfiguration.tab">
+      <trans-unit id="siteConfiguration.tab" approved="yes">
         <source>Region</source>
-        <target state="needs-translation">Region</target>
+        <target state="final">Region</target>
       </trans-unit>
-      <trans-unit id="siteConfiguration.region">
+      <trans-unit id="siteConfiguration.region" approved="yes">
         <source>Region</source>
-        <target state="needs-translation">Region</target>
+        <target state="final">Region</target>
       </trans-unit>
-      <trans-unit id="siteregion_list">
+      <trans-unit id="siteregion_list" approved="yes">
         <source>Region list</source>
-        <target state="needs-translation">Region list</target>
+        <target state="final">Regionsliste</target>
       </trans-unit>
     </body>
   </file>
