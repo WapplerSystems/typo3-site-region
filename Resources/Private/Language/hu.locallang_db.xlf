@@ -5,27 +5,27 @@
     <body>
       <trans-unit id="tx_siteregion_domain_model_region">
         <source>Site Region</source>
-        <target state="needs-translation">Site Region</target>
+        <target state="translated">Webhely régió</target>
       </trans-unit>
       <trans-unit id="tx_siteregion_domain_model_region.title">
         <source>Title</source>
-        <target state="needs-translation">Title</target>
+        <target state="translated">Cím</target>
       </trans-unit>
       <trans-unit id="tx_siteregion_domain_model_region.shortname">
         <source>Short name</source>
-        <target state="needs-translation">Short name</target>
+        <target state="translated">Rövid név</target>
       </trans-unit>
       <trans-unit id="siteConfiguration.tab">
         <source>Region</source>
-        <target state="needs-translation">Region</target>
+        <target state="translated">Régió</target>
       </trans-unit>
       <trans-unit id="siteConfiguration.region">
         <source>Region</source>
-        <target state="needs-translation">Region</target>
+        <target state="translated">Régió</target>
       </trans-unit>
       <trans-unit id="siteregion_list">
         <source>Region list</source>
-        <target state="needs-translation">Region list</target>
+        <target state="translated">Régiók listája</target>
       </trans-unit>
     </body>
   </file>
