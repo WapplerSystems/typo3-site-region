@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" product-name="cms" target-language="hu">
+    <header/>
+    <body>
+      <trans-unit id="tx_siteregion_domain_model_region">
+        <source>Site Region</source>
+        <target state="translated">Webhely régió</target>
+      </trans-unit>
+      <trans-unit id="tx_siteregion_domain_model_region.title">
+        <source>Title</source>
+        <target state="translated">Cím</target>
+      </trans-unit>
+      <trans-unit id="tx_siteregion_domain_model_region.shortname">
+        <source>Short name</source>
+        <target state="translated">Rövid név</target>
+      </trans-unit>
+      <trans-unit id="siteConfiguration.tab">
+        <source>Region</source>
+        <target state="translated">Régió</target>
+      </trans-unit>
+      <trans-unit id="siteConfiguration.region">
+        <source>Region</source>
+        <target state="translated">Régió</target>
+      </trans-unit>
+      <trans-unit id="siteregion_list">
+        <source>Region list</source>
+        <target state="translated">Régiók listája</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
