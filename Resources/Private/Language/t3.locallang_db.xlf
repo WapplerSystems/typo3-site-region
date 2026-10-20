@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" product-name="cms" target-language="t3">
+    <header/>
+    <body>
+      <trans-unit id="tx_siteregion_domain_model_region">
+        <source>Site Region</source>
+        <target>crwdns391530:0crwdne391530:0</target>
+      </trans-unit>
+      <trans-unit id="tx_siteregion_domain_model_region.title">
+        <source>Title</source>
+        <target>crwdns391532:0crwdne391532:0</target>
+      </trans-unit>
+      <trans-unit id="tx_siteregion_domain_model_region.shortname">
+        <source>Short name</source>
+        <target>crwdns391534:0crwdne391534:0</target>
+      </trans-unit>
+      <trans-unit id="siteConfiguration.tab">
+        <source>Region</source>
+        <target>crwdns391536:0crwdne391536:0</target>
+      </trans-unit>
+      <trans-unit id="siteConfiguration.region">
+        <source>Region</source>
+        <target>crwdns391538:0crwdne391538:0</target>
+      </trans-unit>
+      <trans-unit id="siteregion_list">
+        <source>Region list</source>
+        <target>crwdns391540:0crwdne391540:0</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
